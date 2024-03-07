@@ -4,6 +4,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",'node_modules/flowbite-react/lib/esm/**/*.js'],
   theme: {
     screens: {
+      xsm: { max: "570px" },
+      // => @media (max-width: 570px) { ... }
+
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
 
