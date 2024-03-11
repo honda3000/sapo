@@ -1,11 +1,15 @@
 import React from "react";
 
 const About = () => {
+  
+
+
+
   return (
     <div
       name="About"
       className=" flex flex-col items-center  h-screen w-screen "
-      style={{paddingTop:"40px",background:"#25CE25"}}
+      style={{paddingTop:"40px",background:"#25CE25",zIndex:"150",cursor:"url(../assets/pepe1png.png)"}}
     >
       <h2 className="font-semibold text-[40px]">About</h2>
 

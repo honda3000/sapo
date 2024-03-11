@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  cursor: url(../src/assets/pepe1png.png),auto;
+  
+
+}
+
+
 body {
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
