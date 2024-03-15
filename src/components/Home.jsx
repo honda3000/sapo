@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react'
 import { CarouselCustomNavigation } from "./CarouselCustomNavigation";
 import { Button } from 'flowbite-react';
 import useSound from "use-sound";
-import ranaSound from "../assets/rana.mp3"
+import ranaSound from "../assets/disparo.mp3"
+import binancelogo from "../assets/logo.jpg"
 
 
 const Home = () => {
@@ -14,12 +15,12 @@ const Home = () => {
   return (
     <div>
       
-      <div className="items-center flex flex-col h-screen w-screen overflow-hidden bg-slate-400" style={{backgroundColor: "#168C16" }}>
+      <div className="items-center flex flex-col h-screen w-screen overflow-hidden ">
 
-
+      <Button onClick={useRanaSound} color="info" style={{ margin: "20px", width: "200px", height: "100px" ,backgroundImage: `url(${binancelogo})`}}>SHOT</Button>
 <CarouselCustomNavigation
 ></CarouselCustomNavigation>
-<Button onClick={useRanaSound} color="info" style={{ margin: "20px", width: "200px", height: "100px" }}>BUY</Button>
+
 
 
 

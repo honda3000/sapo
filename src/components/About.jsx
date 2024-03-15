@@ -1,7 +1,11 @@
 import React from "react";
+import img1 from "../assets/tirador1cortada.jpg"
+import img2 from "../assets/binance-gorra.jpg"
+import img3 from "../assets/tirador3.jpg"
+import img4 from "../assets/aulatiroteoRecorte.jpg"
 
 const About = () => {
-  
+
 
 
 
@@ -9,29 +13,28 @@ const About = () => {
     <div
       name="About"
       className=" flex flex-col items-center  h-screen w-screen "
-      style={{paddingTop:"40px",background:"#25CE25",zIndex:"150",cursor:"url(../assets/pepe1png.png)"}}
+      style={{ paddingTop: "40px", zIndex: "150", cursor: "url(../assets/pepe1png.png)" }}
+      
     >
-      <h2 className="font-semibold text-[40px]">About</h2>
+      <h2 className="font-semibold text-[40px] " style={{color:"white"}}>ABOUT</h2>
+      <div className="page-content">
+        <div className="card" style={{ backgroundImage: `url(${img1})` }}><div className="content">
+          <h2 className="title">hola</h2>
+          <p className="copy">Lorem ipsum </p>
+          </div></div>
+        <div className="card" style={{ backgroundImage: `url(${img2})` }}><div className="content">
+        <h2 className="title">hola</h2>
+        <p className="copy">Lorem ipsum </p>
+          </div></div>
+        <div className="card" style={{ backgroundImage: `url(${img3})` }}><div className="content">
+        <h2 className="title">hola</h2>
+        <p className="copy">Lorem ipsum </p>
+          </div></div>
+          <div className="card" style={{ backgroundImage: `url(${img4})` }}><div className="content">
+        <h2 className="title">hola</h2>
+        <p className="copy">Lorem ipsum </p>
+          </div></div>
 
-      <div className="flex flex-col items-center justify-center w-screen mt-[5%] pt-[10%] pb-[10%] bg-[#2B2B29] p-10">
-        <p className="text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          asperiores quia ipsum sit dolores, exercita Lorem ipsum dolor sit amet
-          <br />
-          consectetur adipisicing elit. Distinctio, asperiores quia ipsum sit
-          dolores, exercita Lorem ipsum dolor sit amet consectetur adipisicing
-          <br />
-          elit. Distinctio, asperiores quia ipsum sit dolores, exercita{" "}
-        </p>
-        <p className="text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          asperiores quia ipsum sit dolores, exercita Lorem ipsum dolor sit amet
-          <br />
-          consectetur adipisicing elit. Distinctio, asperiores quia ipsum sit
-          dolores, exercita Lorem ipsum dolor sit amet consectetur adipisicing
-          <br />
-          elit. Distinctio, asperiores quia ipsum sit dolores, exercita{" "}
-        </p>
       </div>
     </div>
   );

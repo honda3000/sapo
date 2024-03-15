@@ -3,9 +3,10 @@
 
 import { Carousel } from 'flowbite-react';
 
-import pepe1 from "../assets/pepe1.png";
-import pepe2 from "../assets/pepe2.png";
-import pepe3 from "../assets/pepe3.png";
+import pepe1 from "../assets/binancebully.jpg";
+import pepe2 from "../assets/tirador1.jpg";
+import pepe3 from "../assets/tiradorPNG.png";
+import pepe4 from "../assets/aulatiroteo.jpg";
 
 export  function CarouselCustomNavigation() {
   return (
@@ -14,6 +15,7 @@ export  function CarouselCustomNavigation() {
         <img className='h-150 w-150' src={pepe1} alt="..." />
         <img className='h-150 w-150' src={pepe2} alt="..." />
         <img  className='h-150 w-150'src={pepe3} alt="..." />
+        <img  className='h-150 w-150'src={pepe4} alt="..." />
         
       </Carousel>
     </div>

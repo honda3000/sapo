@@ -24,6 +24,7 @@ const NavBar = () => {
           ? " z-[200] absolute w-[69px]  left-4 h-[47px]"
           : " items-center justify-around flex flex-col z-[300] fixed w-[25%] h-screen bg-[#2B2B29]",
       ]}
+      
     >
       <Menu
         isMenuOpen={isMenuopen}
