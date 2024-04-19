@@ -14,7 +14,7 @@ export  function CarouselCustomNavigation() {
       <Carousel>
         <img className='h-150 w-150' src={pepe1} alt="..." />
         <img className='h-150 w-150' src={pepe2} alt="..." />
-        <img  className='h-150 w-150'src={pepe3} alt="..." />
+        <img  className='h-250 w-250'src={pepe3} alt="..." />
         <img  className='h-150 w-150'src={pepe4} alt="..." />
         
       </Carousel>
