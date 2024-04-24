@@ -24,11 +24,18 @@ const Tokenomics = () => {
           <div className="relative w-[600px] h-[500px]    ">
             <img className="flex items-center"  src={p.projectsImageSrc} alt="" />
             <span className="flex flex-col  p-4 absolute  backdrop-blur hover:backdrop-blur-[35px]  inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <p style={{color:"white",fontSize:"30px",padding:"10px",width:"100%"}}>
+              <ul style={{color:"white",fontSize:"30px",padding:"10px",width:"100%",margin:"20px"}}>
 
+                <li type="disc">CA:</li>
 
+                <li type="disc">fast and secure swap</li>
 
-              </p>
+                <li type="disc">exchange your cryptocurrencies</li>
+                <li type="disc">swap with a project, and its own cryptocurrency, $FSWAP</li>
+                <li type="disc">MINT: REVOKED</li>
+                <li type="disc">OWNERSHIP: RENOUNCED</li>
+
+              </ul>
               <div className="flex">
 
               </div>
