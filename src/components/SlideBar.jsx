@@ -13,7 +13,7 @@ const SlideBar = () => {
           Telegram <img src={Telegram} style={{width:"30px",height:"30px",margin:"5px"}}></img>
         </>
       ),
-      href: "https://web.telegram.org/k/",
+      href: "https://t.me/Futureswap_BASE",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const SlideBar = () => {
           X <AiFillTwitterSquare size={30} style={{margin:"5px"}} />
         </>
       ),
-      href: "https://twitter.com/",
+      href: "https://twitter.com/futureswap2712",
     },
     
   ];
