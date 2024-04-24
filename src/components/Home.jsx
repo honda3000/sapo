@@ -64,7 +64,7 @@ const Home = () => {
       </Button>
     </Card>
     <div className="ca">
-    <h3 className="notititle">CA:XXXXXXXXXXXXXXXXXXXX</h3>
+    <h3 className="notititle">CA:0x32a5e28254c64B64FdD2241772eA31E01E7A31cE</h3>
 
     </div>
     

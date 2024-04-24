@@ -26,7 +26,7 @@ const Tokenomics = () => {
             <span className="flex flex-col  p-4 absolute  backdrop-blur hover:backdrop-blur-[35px]  inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
               <ul style={{color:"white",fontSize:"30px",padding:"10px",width:"100%",margin:"20px"}}>
 
-                <li type="disc">CA:</li>
+                <li type="disc">CA:0x32a5e28254c64B64FdD2241772eA31E01E7A31cE</li>
 
                 <li type="disc">fast and secure swap</li>
 
