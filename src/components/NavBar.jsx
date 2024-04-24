@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Menu from "./Menu";
 import { Link } from "react-scroll";
+import logo from "../assets/logo.png"
 const NavBar = () => {
   const [isMenuopen, setIsMenuOpen] = useState(false);
 
@@ -9,10 +10,7 @@ const NavBar = () => {
       link: "About",
       id: 1,
     },
-    {
-      link: "Tokenomics",
-      id: 2,
-    },
+    
     
   ];
 
@@ -30,6 +28,7 @@ const NavBar = () => {
         isMenuOpen={isMenuopen}
         handleMenu={() => setIsMenuOpen(!isMenuopen)}
       />
+      <img src={logo}></img>
 
       {isMenuopen &&
         links.map((l) => (

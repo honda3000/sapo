@@ -21,7 +21,7 @@ function App() {
       <SlideBar />
       <Home />
        
-      <About />
+      
       <Tokenomics />
 
     </div>
